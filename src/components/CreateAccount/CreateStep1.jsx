@@ -36,7 +36,7 @@ function CreateStep1() {
       };
 
     const handleBack = () => {
-        navigate("/create-account");
+        navigate("/");
       };
       
 
