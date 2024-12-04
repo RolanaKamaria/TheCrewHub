@@ -164,7 +164,7 @@ function CreateAccount() {
                     hover:dark:bg-input-label-hover-light/20 dark:bg-input-label-dark    
                     p-2 rounded-lg shadow-sm shadow-border-light/20
                     xl:w-96 lg:w-96 md:w-full sm:w-full w-fit h-10
-                    space-x-[14vw] xl:space-x-[12vw] lg:space-x-[20vw] md:space-x-[50vw] sm:space-x-[14vw]
+                    space-x-[14vw] xl:space-x-[10vw] lg:space-x-[20vw] md:space-x-[50vw] sm:space-x-[14vw]
                     " >
                 <input
                     type={isPasswordVisible ? "text" : "password"}
