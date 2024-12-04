@@ -74,7 +74,8 @@ function CreateStep1() {
          h-[60vh] xl:h-[39vh] lg:h-[50vh] md:h-[60vh] sm:h-[44vh]'/> 
          <div className="absolute flex flex-col space-y-8 
          px-[25vw] xl:px-[35vw] lg:px-[35vw] md:px-[28vw] sm:px-[28vw]
-          text-text-light dark:text-text-dark font-['Open Sans'] ">
+          text-text-light dark:text-text-dark font-['Open Sans'] 
+          xl:text-lg lg:text-base md:text-sm sm:text-sm text-xs">
            {userTypes&&userTypes.map((item,index) =>{
             return(
               <Button

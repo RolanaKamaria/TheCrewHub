@@ -164,7 +164,7 @@ function CreateAccount() {
                     hover:dark:bg-input-label-hover-light/20 dark:bg-input-label-dark    
                     p-2 rounded-lg shadow-sm shadow-border-light/20
                     xl:w-96 lg:w-96 md:w-full sm:w-full w-fit h-10
-                    space-x-[14vw] xl:space-x-[10vw] lg:space-x-[20vw] md:space-x-[50vw] sm:space-x-[14vw]
+                    space-x-[14vw] xl:space-x-[10vw] lg:space-x-[13vw] md:space-x-[44vw] sm:space-x-[14vw]
                     " >
                 <input
                     type={isPasswordVisible ? "text" : "password"}
@@ -197,7 +197,7 @@ function CreateAccount() {
        <button 
        type="submit"
        className="bg-gradient-to-r from-button3-light from-10% via-button2-light via-50% to-button1-light to-90%
-                  xl:w-96 lg:w-96 md:w-full sm:w-full w-full h-10 rounded-3xl font-bold
+                  xl:w-96 lg:w-96 md:w-full sm:w-full w-52 h-10 rounded-3xl font-bold
                    hover:bg-none hover:border hover:border-transparent hover:border-button2-light 
                     text-text-dark hover:text-text-light hover:dark:text-text-dark
                     ">
