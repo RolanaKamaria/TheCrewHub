@@ -6,7 +6,7 @@ const ModeSwitcher = ({className}) => {
     const { isLight, setIsLight } = useTheme();
   return (
     <div className={`cursor-pointer border-2 border-button2-light dark:border-button2-light rounded-full
-    absolute right-10  px-2 py-1 justify-center items-center content-center ${className}`}>
+    absolute right-10 top-[85vh]  px-2 py-1 justify-center items-center content-center ${className}`}>
   <button
         type="button"
         onClick={() => setIsLight(!isLight)}

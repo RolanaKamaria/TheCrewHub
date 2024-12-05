@@ -9,7 +9,6 @@ import axios from "axios";
 import * as Yup from "yup";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
-import ModeSwitcher from "../ModeSwitcher";
 import { registerUser } from "../Stor/userSlice";
 import { useDispatch } from "react-redux";
 
@@ -208,8 +207,6 @@ function CreateAccount() {
         <Link to="/login" className="font-bold text-sm
         text-text-light dark:text-text-dark hover:text-button2-light hover:dark:text-button2-light">Login</Link>
         </div>
-        <ModeSwitcher
-        className="top-[85vh]"/>
       </div>
       </div>
   )

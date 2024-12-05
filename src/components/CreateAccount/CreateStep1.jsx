@@ -7,7 +7,6 @@ import progressR from '../../assets/progressR.svg'
 import step1bg from '../../assets/BG.png'
 import Button from "./Button";
 import axios from "axios";
-import ModeSwitcher from "../ModeSwitcher";
 import { useTheme } from "../ThemeProvider";
 import { setUserType } from "../Stor/userSlice";
 import { useDispatch } from "react-redux";
@@ -110,8 +109,6 @@ function CreateStep1() {
          </div>
         </div>
         )}
-      <ModeSwitcher 
-className="top-[80vh]"/>
       </div>
 
     

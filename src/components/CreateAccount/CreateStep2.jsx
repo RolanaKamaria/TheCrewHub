@@ -6,7 +6,6 @@ import progressC from '../../assets/progressC.svg'
 import progressR from '../../assets/progressR2.svg'
 import step1bg from '../../assets/BG.png'
 import Button from "./Button";
-import ModeSwitcher from "../ModeSwitcher";
 import axios from "axios";
 import { useTheme } from "../ThemeProvider";
 import { setIndustry } from "../Stor/userSlice";
@@ -131,8 +130,6 @@ function CreateStep2() {
     </div>
         )}
        </div>
-       <ModeSwitcher 
-       className="top-[90vh] xl:right-10 lg:right-5 md:right-5 sm:right-10 right-5"/>
       </div>
 
   )

@@ -1,5 +1,6 @@
 import React from "react"
 import { Router } from "./routers/Router"
+import ModeSwitcher from "./components/ModeSwitcher"
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
 
 <div>
   <Router />
+  <ModeSwitcher />
 </div>
   )
 }
